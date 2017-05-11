@@ -1,0 +1,144 @@
+@import 'https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy';
+body
+{
+    background-color: white;
+}
+.main
+{
+    width: 100%;
+}
+.caixa-anuncis
+{
+    height: 40em;
+    margin-top: -20px;
+
+    background: url('../img/bare_root_homepage_1.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;;
+}
+.caixa-anuncis-text
+{
+    font-family: 'Sorts Mill Goudy', serif;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    max-width: 40em;
+
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: middle;
+
+    color: #00693c;
+    background-color: rgba(255,255,255,.6);
+}
+
+
+#titol-caixa-benvinguda
+{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+
+    display: block;
+
+    color: #00693c;
+}
+#caixa-foto-benvinguda
+{
+    float: right;
+}
+#caixa-text-benvinguda
+{
+    float: left;
+
+    width: 50%;
+}
+#img-benvinguda
+{
+    width: 90%;
+
+    border: 5px double grey;
+}
+#text-caixa-benvinguda
+{
+    font-size: 1.1em;
+
+    margin-left: 2%;
+}
+hr
+{
+    display: block;
+
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+#titol-caixa-anuncis
+{
+    font-size: 3em;
+    font-weight: bold;
+
+    display: block;
+}
+#subtitol-caixa-anuncis
+{
+    font-size: 2.5em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+a
+{
+    text-decoration: inherit; /* no underline */
+
+    color: inherit; /* blue colors for links too */
+}
+#recomanacions *
+{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+
+    text-align: center;
+
+    color: #00693c;
+}
+.boto
+{
+    font-family: 'GillSans',Verdana,Arial,sans-serif !important;
+    font-size: .4em !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+
+    width: 50%;
+    margin: 0 auto;
+
+    color: white !important;
+    background-color: #00693c;;
+}
+
+/** CSS DE CAROUSEL **/
+.thumbnail
+{
+    margin-bottom: 6px;
+}
+
+.carousel-control.left,
+.carousel-control.right
+{
+    width: 5%;
+    margin-top: 10%;
+
+    background-image: none;
+}
+/** --------------- **/

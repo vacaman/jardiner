@@ -1,0 +1,69 @@
+/* For Contact Section*/
+#map
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 650px;
+}
+
+
+.contact-form-area
+{
+    position: absolute;
+    bottom: 40px;
+
+    width: 85%;
+    margin-bottom: 30px;
+    padding: 30px;
+
+    border: 1px solid #cdcaca;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    background: rgba(0, 0, 0, .6);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(55,50,40, .10);
+       -moz-box-shadow: 1px 1px 1px 0 rgba(55,50,40, .10);
+            box-shadow: 1px 1px 1px 0 rgba(55,50,40, .10);
+
+        -ms-border-radius: 5px;
+        -ms-box-shadow: 1px 1px 1px 0 rgba(55,50,40, .10);
+}
+.contact-form-area form h3
+{
+    font-family: 'latobold';
+    font-size: 36px;
+
+    margin-bottom: 20px;
+
+    color: #fff;
+}
+.form-control
+{
+    height: 35px;
+
+    border: none;
+}
+.contact-form-area form .contact-btn
+{
+    padding: 10px 70px;
+
+    -webkit-transition: all .5s;
+       -moz-transition: all .5s;
+        -ms-transition: all .5s;
+         -o-transition: all .5s;
+            transition: all .5s;
+
+    color: #000;
+    background: #dcdcdc;
+}
+.contact-form-area form .contact-btn:hover
+{
+    background: #fff;
+}
+#contact
+{
+    margin-top: -20px;
+}

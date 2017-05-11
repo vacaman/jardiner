@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy';
+
+a:hover
+{
+    text-decoration: inherit; /* no underline */
+
+    color: grey; /* blue colors for links too */
+}
+.header
+{
+    font-family: 'GillSans',Verdana,Arial,sans-serif;
+    font-size: .9em;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    color: white;
+    background-color: #00693c;
+}
+#superior
+{
+    float: right;
+
+    color: white;
+}
+#inferior
+{
+    font-size: 1.5em;
+
+    display: flex;
+
+    color: white;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+span
+{
+    padding-left: 1em;
+}
+
+.navbar-inverse.nav-upper
+{
+    height: 50px;
+
+    background-color: #00693c;
+}
+.navbar-inverse.nav-upper ul
+{
+    display: table;
+    float: right;
+
+    background-color: #00693c;
+}
+.navbar-inverse.nav-upper .navbar-upper > li
+{
+    font-size: 14px;
+
+    display: table-cell;
+
+    background-color: #00693c;
+}
+.navbar-inverse.nav-upper .navbar-upper > li > a
+{
+    color: #777;
+    background-color: #00693c;
+}
+@media (min-width: 768px)
+{
+    .navbar.navbar-lower .navbar-nav
+    {
+        margin-left: 400px;
+
+        background-color: #00693c;
+    }
+}
+
+.navbar-logo
+{
+    position: absolute;
+    z-index: 1001;
+    top: 20px;
+    left: -60px;
+
+    width: 400px;
+    height: 80px;
+
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#asd
+{
+    background-color: #00693c;
+}
+#separador
+{
+    font-weight: 100 ;
+
+    color: lightgrey;
+}
+
+/** VISIO D'IMPRESSIÓ **/
+@media print
+{
+    header nav,
+    footer
+    {
+        display: none;
+    }
+}

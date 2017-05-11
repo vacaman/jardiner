@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy';
+.main
+{
+    font-family: 'Sorts Mill Goudy', serif;
+
+    height: 100%;
+
+    color: #00693c;
+    background: url('../img/bg_idioma.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.welcome
+{
+    display: inline-block;
+}
+
+.welcome p
+{
+    font-size: 20px;
+
+    margin: 0 auto;
+    margin: 0;
+    padding: 10px;
+
+    text-align: center;
+}
+
+.banderes
+{
+    position: absolute;
+    top: 0;
+    top: 50%;
+
+    width: 100%;
+
+    transform: translateY(-50%);
+}
+
+.table
+{
+    display: inline-block;
+
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+.bandera
+{
+    float: left;
+
+    width: 20%;
+    padding: 6%;
+
+    list-style: none;
+}
+
+.bandera img
+{
+    width: 100%;
+}
+
+.lang
+{
+    font-family: 'Sorts Mill Goudy', serif;
+
+    text-decoration: none;
+
+    color: #00693c;
+}
+
+.content
+{
+    width: 43%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5%;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, .9);
+}
+
+@media only screen and (max-width: 1055px),
+(min-device-width: 768px) and (max-device-width: 1055px)
+{
+    .content
+    {
+        width: 80%;
+    }
+    .banderes
+    {
+        position: absolute;
+        top: 50%;
+
+        width: auto;
+
+        transform: translateY(-50%);
+    }
+    .bandera
+    {
+        float: left;
+
+        width: 29%;
+        padding: 2%;
+    }
+    p
+    {
+        font-size: 2.2em;
+    }
+}
